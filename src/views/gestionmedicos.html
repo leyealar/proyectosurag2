@@ -42,11 +42,107 @@
             </div>
         </nav>
     </header>
+    <br><br><br>
     <main>
         <div class="container">
             <div class="row">
-                <div class="col-12 col-md-6"></div>
-                <div class="col-12 col-md-6"></div>
+                <div class="col-12 col-md-6">
+                    <img src="../../assets/img/medico.png" alt="" class="img-fluid w-100">
+                </div>
+                <div class="col-12 col-md-6">
+                    <button type="button " class="btn btn-outline-primary" data-bs-toggle="collapse"
+                        data-bs-target="#collapseExample" aria-expanded="false">Registrar especialista</button>
+                    <div class="collapse mt-3" id="collapseExample">
+                        <div class="card card-body">
+                            <form>
+
+                                <h2>Registro</h2>
+                                <div class="row">
+                                    <div class="col-12 col-md-6">
+                                        <div class="input-group mb-3">
+                                            <span class="input-group-text" id="basic-addon1"><i
+                                                    class="bi bi-person-circle"></i></span>
+                                            <input type="text" class="form-control" placeholder="Nombre Completo">
+                                        </div>
+                                    </div>
+                                    <div class="col-12 col-md-6">
+                                        <div class="input-group mb-3">
+                                            <span class="input-group-text" id="basic-addon1"><i
+                                                    class="bi bi-postcard"></i></span>
+                                            <input type="text" class="form-control" placeholder="Documeto de identidad">
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <div class="row">
+                                    <div class="col-12">
+                                        <select class="form-select">
+                                            <option selected>Especialidad</option>
+                                            <option value="1">Ortopedia</option>
+                                            <option value="2">Cirugia</option>
+                                            <option value="3">Internista</option>
+                                            <option value="4">Pediatria</option>
+                                            <option value="5">Ginecologia</option>
+                                        </select>
+                                    </div>
+                                </div>
+
+                                <div class="row mt-3">
+                                    <div class="col-12 col md-6"><div class="input-group mb-3">
+                                        <span class="input-group-text" id="basic-addon1"><i
+                                                class="bi bi-postcard"></i></span>
+                                        <input type="text" class="form-control" placeholder="Registro profesional">
+                                    </div>
+
+                                    </div>
+                                    <div class="col-12 col md-6"><div class="input-group mb-3">
+                                        <span class="input-group-text" id="basic-addon1"><i class="bi bi-envelope"></i></span>
+                                        <input type="text" class="form-control" placeholder="Correo electronico">
+                                    </div>
+
+                                    </div>
+                                </div>
+
+                                <div class="row">
+                                    <div class="col-12 col-md-6"><select class="form-select form-select-lg mb-3">
+                                        <option selected>Sede</option>
+                                        <option value="1">Molinos</option>
+                                        <option value="2">Industriales</option>
+                                        <option value="3">Cordaba</option>
+                                        <option value="4">San Diego</option>
+                                        <option value="5">La 33</option>
+                                      </select>
+                                      </div>
+                                    <div class="col-12 col-md-6"><select class="form-select form-select-lg mb-3">
+                                        <option selected>Horarios</option>
+                                        <option value="1">06:00 - 14:00</option>
+                                        <option value="2">14:00 - 22:00</option>
+                                        <option value="3">22:00 - 06:00</option>
+                                      </select></div>
+                                </div>
+                                <div class="row mt-3">
+                                    <div class="col-12">
+                                        <div class="form-floating">
+                                            <textarea class="form-control" placeholder="Descripcion general" id="floatingTextarea"></textarea>
+                                            <label for="floatingTextarea">Descripcion</label>
+                                          </div>
+                                    </div>
+                                </div>
+                                <div class="row mt-3">
+                                    <div class="col">
+                                        <div class="input-group mb-3">
+                                            <span class="input-group-text" id="basic-addon1"><i class="bi bi-camera"></i></span>
+                                            <input type="text" class="form-control" placeholder="Fotografia">
+                                        </div>
+                                    </div>
+
+                                </div>
+
+                                <button type="submit" class="btn btn-primary w-100">Enviar</button>
+                            </form>
+                        </div>
+                    </div>
+                </div>
             </div>
         </div>
     </main>
