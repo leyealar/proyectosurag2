@@ -20,7 +20,7 @@
   <header>
     <nav class="navbar navbar-expand-lg azulSura navbar-dark fixed-top">
       <div class="container-fluid">
-        <a class="navbar-brand" href="{% url 'home' %}">GESTORAPP</a>
+        <a class="navbar-brand" href="./index.html">GESTORAPP</a>
         <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
           aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
           <span class="navbar-toggler-icon"></span>
@@ -28,16 +28,16 @@
         <div class="collapse navbar-collapse" id="navbarNav">
           <ul class="navbar-nav">
             <li class="nav-item">
-              <a class="nav-link active" aria-current="page" href="{% url 'home' %}">Home</a>
+              <a class="nav-link active" aria-current="page" href="./index.html">Inicio</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="{% url 'medicos' %}">Medicos</a>
+              <a class="nav-link" href="./src/views/gestionmedicos.html">Medicos</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#">Pricing</a>
+              <a class="nav-link" href="./src/views/gestionpacientes.html">Pacientes</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link disabled">Disabled</a>
+              <a class="nav-link disabled"></a>
             </li>
           </ul>
         </div>
@@ -53,11 +53,13 @@
         <div class="row justify-content-center">
           <div class="col-12 col-md-5 text-center">
             <img src="./assets/img/doctorpaciente.png" alt="foto" class="img-fluid w-100">
-            <h1 class="fw-bold">GESTORAPP</h1>
-            <p class="wow animate__animated animate__fadeInUp animate__slow">Lorem ipsum dolor sit amet, consectetur
-              adipisicing elit. Sed, voluptates totam veritatis
-              ducimus a rem nihil distinctio, neque laboriosam suscipit necessitatibus debitis vero, magni eum officiis
-              sit in nisi corrupti!</p>
+            <h1 class="fw-bold">Quienes Somos</h1>
+            <p class="wow animate__animated animate__fadeInUp animate__slow">
+             El 31 de enero de 1990 nació la Compañía Suramericana de Servicios de Salud, SUSALUD, como una empresa de Medicina Prepagada. Más adelante, el 16 de marzo de 1995 recibió su aprobación como Entidad Promotora de Salud (EPS) y comenzó su participación dentro del Sistema General de Seguridad Social en Salud colombiano, a raíz del surgimiento de la Ley 100 de 1993. A partir de 2009 Susalud cambia de marca y se convierte en EPS SURA.
+
+              EPS SURA como Entidad Promotora de Salud ofrece los servicios de PBS y Planes Complementarios de Salud.
+              
+              A través de la Compañía de Servicio de Salud IPS Suramericana S.A., la EPS cuenta con divisiones asistenciales para apoyar su gestión con entidades como: IPS Punto de Salud, Dinámica IPS, Salud en Casa, Punto de Vista y Consultoría en riesgos profesionales.</p>
           </div>
         </div>
       </div>
@@ -70,9 +72,8 @@
           </div>
           <div class="col-12 col-md-4 text-white text-center align-self-center">
             <h2>BIENVENIDO</h2>
-            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Suscipit, cumque voluptas quaerat, accusamus
-              eum nihil magni perspiciatis ducimus, magnam reprehenderit adipisci voluptatum! Repellat qui praesentium
-              numquam placeat cum provident in!</p>
+            <p>Tu vida es nuestra inspiración, y el tiempo tu mejor aliado.
+              Por eso queremos invitarte a un espacio creado especialmente para ti. Donde, en compañía de un equipo especializado, podrás enfocarte en ti, en tu vida y en tu salud, mirándote y reconociéndote como mujer. Regálate una pausa que puede ser tan valiosa como tu vida misma.</p>
             <div class="wow animate__animated animate__fadeInUp animate__slow"> 
               <i class="bi bi-lungs-fill fs-1 me-3"></i>
               <i class="bi bi-person-heart fs-1 me-3"></i>
@@ -85,7 +86,9 @@
     </section>
 
   </main>
-  <footer></footer>
+  <footer>
+   <h4>© Copyright Leidy Alvarez</h4>
+  </footer>
 
 
 
