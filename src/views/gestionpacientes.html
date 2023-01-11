@@ -59,7 +59,7 @@
                                         <div class="input-group mb-3">
                                             <span class="input-group-text" id="basic-addon1"><i
                                                     class="bi bi-person-circle"></i></span>
-                                            <input type="text" class="form-control" placeholder="Nombres y Apellidos">
+                                            <input type="text" class="form-control" placeholder="Nombres y Apellidos" id="nombres">
                                         </div>
                                     </div>
 
@@ -67,12 +67,12 @@
                                         <div class="input-group mb-3">
                                             <span class="input-group-text" id="basic-addon1"><i
                                                     class="bi bi-postcard"></i></span>
-                                            <input type="text" class="form-control" placeholder="Documeto de identidad">
+                                            <input type="text" class="form-control" placeholder="Documeto de identidad"id="documento">
                                         </div>
                                     </div>
                                     <div class="row mt-3">
                                         <div class="col-12">
-                                            <select class="form-select">
+                                            <select class="form-select"id="regimen">
                                                 <option selected>Regimen</option>
                                                 <option value="1">Contributivo</option>
                                                 <option value="2">Subsidiado</option>
@@ -81,7 +81,7 @@
                                     </div>
                                     <div class="row mt-3">
                                         <div class="col-12">
-                                            <select class="form-select">
+                                            <select class="form-select" id="grupo">
                                                 <option selected>Grupo de ingreso</option>
                                                 <option value="1">A</option>
                                                 <option value="2">B</option>
@@ -97,7 +97,7 @@
                                         <div class="input-group mb-3">
                                             <span class="input-group-text" id="basic-addon1"><i
                                                     class="bi bi-coin"></i></span>
-                                            <input type="text" class="form-control" placeholder="Cuota Moderadora">
+                                            <input type="text" class="form-control" placeholder="Cuota Moderadora" id="cuota">
                                         </div>
 
                                     </div>
@@ -105,7 +105,7 @@
                                         <div class="input-group mb-3">
                                             <span class="input-group-text" id="basic-addon1"><i
                                                     class="bi bi-envelope"></i></span>
-                                            <input type="text" class="form-control" placeholder="Correo electronico">
+                                            <input type="text" class="form-control" placeholder="Correo electronico" id="correo">
                                         </div>
 
                                     </div>
@@ -113,13 +113,13 @@
                                         <div class="input-group mb-3">
                                             <span class="input-group-text" id="basic-addon1"><i
                                                     class="bi bi-telephone-fill"></i></span>
-                                            <input type="text" class="form-control" placeholder="Telefono">
+                                            <input type="text" class="form-control" placeholder="Telefono" id="telefono">
                                         </div>
 
                                     </div>
                                 </div>
 
-                                <button type="submit" class="btn btn-primary w-100">Enviar</button>
+                                <button type="submit" class="btn btn-primary w-100" id="botonenvio" >Enviar</button>
                             </form>
                         </div>
                     </div>
@@ -190,10 +190,12 @@
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3"
         crossorigin="anonymous"></script>
+    <script src="../controllers/controladorpacientes.js" type="module"></script>
     <script src="../helpers//wow.min.js"></script>
     <script>
         new WOW().init();
     </script>
+    <script src="//cdn.jsdelivr.net/npm/sweetalert2@11"></script>
 </body>
 
 </html>
