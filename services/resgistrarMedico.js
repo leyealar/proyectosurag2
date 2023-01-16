@@ -10,4 +10,4 @@ export async function registrarMedico(medico){
 
     let respuesta=await fetch(url,peticion)
     let respuestaOK=await respuesta.json()
-}
+}//fin
