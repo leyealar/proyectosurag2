@@ -16,7 +16,7 @@ export function capturarDatos(etiquetaNombre,etiquetaDocumento,etiquetaRegistro,
    //OBJETO=ALMACENAR VARIOS DTOS EN 1 SOLO ESPACIO DE MEMORIA
 
    let datosFormularioMedico={
-    nombre:nombresMedico,
+    nombres:nombresMedico,
     documento:documentoMedico,
     especialidad:especialidadMedico,
     registro:registroMedico,

@@ -1,3 +1,5 @@
+import{registrarMedico} from "../../services/resgistrarMedico.js"
+
 export function validarFormulario(datos){
 
     //REFERENCIAS A ETIQUETAS QUE QUIERO VALIDAR
@@ -26,7 +28,7 @@ export function validarFormulario(datos){
         etiquetaNombre.classList.remove("is-invalid")
         etiquetaDocumento.classList.add("is-invalid")
     }else{
-        alert("nos vamos para la bd")
+        registrarMedico(datos)
         etiquetaNombre.classList.remove("is-invalid")
         etiquetaDocumento.classList.remove("is-invalid")
     }
